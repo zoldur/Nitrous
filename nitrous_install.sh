@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.nitrous'
 COIN_DAEMON='nitrousd'
 COIN_CLI='nitrous-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/zoldur/Nitrous/releases/v2.0.1.1/nitrous.tar.gz'
+COIN_TGZ='https://github.com/zoldur/Nitrous/releases/download/v2.0.1.1/nitrous.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Nitrous'
 COIN_PORT=32323
@@ -25,8 +25,7 @@ function download_node() {
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
   compile_error
-  unzip $COIN_ZIP >/dev/null 2>&1
-  cp Ragnarok-Linux/$COIN_DAEMON $COIN_PATH
+  tar xvzf $COIN_ZIP -C $COIN_PATH >/dev/null 2>&1
   cd - >/dev/null 2>&1
   rm -rf $TMP_FOLDER >/dev/null 2>&1
   clear
