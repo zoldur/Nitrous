@@ -4,7 +4,7 @@ Shell script to install a [Nitrous Masternode](https://) on a Linux server runni
 
 ## Installation
 ```
-wget -q https://raw.githubusercontent.com/zoldur/Nitrous/master/nitrous_install.sh
+wget -N https://raw.githubusercontent.com/zoldur/Nitrous/master/nitrous_install.sh
 bash nitrous_install.sh
 ```
 ***
