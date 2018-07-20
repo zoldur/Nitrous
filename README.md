@@ -1,5 +1,5 @@
 # Nitrous
-Shell script to install a [Nitrous Masternode](https://) on a Linux server running Ubuntu 16.04. Use it on your own risk.
+Shell script to install a [Nitrous Masternode](https://) on a Linux server running Ubuntu 16.04. Use it on your own risk.  
 The script will install version 3.0.0.0
 ***
 
@@ -77,7 +77,7 @@ Open your desktop wallet and start the node from there.
 
 Any donation is highly appreciated
 
-**N2O**: Ni8ncZPq1taUH8uE56spcDq3V6DSY2Nsjc
-**BTC**: 3MQLEcHXVvxpmwbB811qiC1c6g21ZKa7Jh
-**ETH**: 0x26B9dDa0616FE0759273D651e77Fe7dd7751E01E
+**N2O**: Ni8ncZPq1taUH8uE56spcDq3V6DSY2Nsjc . 
+**BTC**: 3MQLEcHXVvxpmwbB811qiC1c6g21ZKa7Jh  
+**ETH**: 0x26B9dDa0616FE0759273D651e77Fe7dd7751E01E . 
 **LTC**: LNZpK4rCd1JVSB3rGKTAnTkudV9So9zexB
